@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <style src="styles.css"></style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Landing Page</title>
     </head>
 
-    <body>
+    <header>
         <div class="header">
-            <h3>Header Logo</h3>
+            <h3 id="headerText">Header Logo</h3>
 
             <ol>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+                <li class="heroSecondary">header link one</li>
+                <li class="heroSecondary">header link two</li>
+                <li class="heroSecondary">header link three</li>
             </ol>
-        </div>
 
+        </div>
+        
         <div class="body1">
-            <div>
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. Its a smaller font and the color is lower contrast</p>
-                <button>Sign me up</button>
+            <div class="headContent">
+                <h1 id="heroMain">This website is awesome</h1>
+                <p class="heroSecondary">This website has some subtext that goes here under the main title. Its a smaller font and the color is lower contrast</p>
+                <button id="btn1">Sign me up</button>
             </div>
             
-            <div>
+            <div id="imgPlaceholder">
                 this is a placeholder for an image
             </div>
         </div>
+    </header>
+
+    <body>
+
+        
 
         <div class="body2">
             <h1>Some random information</h1>
@@ -67,7 +73,7 @@
         </div>
 
         <div class="footer">
-            <div class="footercontent">
+            <div class="footerContent">
                 <h3>Call to action! It's time!</h3>
                 <p>sign up for our product by clicking that button right over there!</p>
             </div>
